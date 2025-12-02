@@ -9,10 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#ffffff",
-        foreground: "#000000",
-        accent: "#1a1a1a",
-        muted: "#f5f5f5",
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        accent: "var(--accent)",
+        muted: "var(--muted)",
+
+        cream: "var(--cream)",
+        sand: "var(--sand)",
+        stone: "var(--stone)",
+        border: "var(--border)",
       },
       fontFamily: {
         sans: [
@@ -25,6 +30,7 @@ const config: Config = {
           "Arial",
           "sans-serif",
         ],
+        serif: ["Georgia", "serif"],
       },
       animation: {
         "fade-in": "fadeIn 0.6s ease-in-out",

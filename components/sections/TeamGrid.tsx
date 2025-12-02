@@ -34,7 +34,7 @@ export default function TeamGrid() {
       {team.map((member, index) => (
         <Card key={index}>
           {/* Placeholder for image - replace with actual Next.js Image component when you have images */}
-          <div className="relative mb-6 aspect-square w-full overflow-hidden rounded-sm bg-black/5">
+          <div className="bg-cream relative mb-6 aspect-square w-full overflow-hidden rounded-sm">
             {/* When ready, use: */}
             {/* <Image 
               src={member.image} 
@@ -43,9 +43,9 @@ export default function TeamGrid() {
               className="object-cover"
             /> */}
           </div>
-          <h3 className="mb-1 text-lg font-medium">{member.name}</h3>
-          <p className="mb-3 text-sm text-black/60">{member.role}</p>
-          <p className="text-sm text-black/70">{member.bio}</p>
+          <h3 className="mb-1 text-lg font-normal">{member.name}</h3>
+          <p className="text-stone mb-3 text-sm">{member.role}</p>
+          <p className="text-stone/80 text-sm">{member.bio}</p>
         </Card>
       ))}
     </div>

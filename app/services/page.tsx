@@ -20,10 +20,10 @@ export default function ServicesPage() {
       {/* Hero */}
       <Section className="pt-32 pb-20">
         <div className="mx-auto max-w-4xl text-center">
-          <h1 className="mb-6 text-5xl font-medium tracking-tight md:text-7xl">
+          <h1 className="mb-6 text-5xl font-normal tracking-tight md:text-7xl">
             Our Services
           </h1>
-          <p className="text-xl text-black/70">
+          <p className="text-stone text-xl">
             Comprehensive consulting services designed to transform every aspect
             of your F&B operation.
           </p>

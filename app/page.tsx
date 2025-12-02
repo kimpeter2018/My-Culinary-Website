@@ -18,10 +18,10 @@ export default function HomePage() {
       />
 
       {/* Services Preview */}
-      <Section className="bg-muted">
+      <Section className="bg-cream">
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-4xl font-medium md:text-5xl">What We Do</h2>
-          <p className="mx-auto max-w-2xl text-lg text-black/70">
+          <h2 className="mb-4 text-4xl font-normal md:text-5xl">What We Do</h2>
+          <p className="text-stone mx-auto max-w-2xl text-lg">
             Comprehensive consulting services tailored to your F&B business
             needs.
           </p>

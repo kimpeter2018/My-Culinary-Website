@@ -18,10 +18,10 @@ export default function AboutPage() {
       {/* Hero */}
       <Section className="pt-32 pb-20">
         <div className="mx-auto max-w-4xl text-center">
-          <h1 className="mb-6 text-5xl font-medium tracking-tight md:text-7xl">
+          <h1 className="mb-6 text-5xl font-normal tracking-tight md:text-7xl">
             About Us
           </h1>
-          <p className="text-xl text-black/70">
+          <p className="text-stone text-xl">
             A multidisciplinary team united by a passion for exceptional food &
             beverage experiences.
           </p>
@@ -29,24 +29,24 @@ export default function AboutPage() {
       </Section>
 
       {/* Our Story */}
-      <Section className="bg-muted">
+      <Section className="bg-cream">
         <div className="grid grid-cols-1 items-center gap-16 md:grid-cols-2">
-          <div className="aspect-square rounded-sm bg-black/5" />
+          <div className="bg-muted aspect-square rounded-sm" />
           <div>
-            <h2 className="mb-6 text-4xl font-medium">Our Story</h2>
-            <p className="mb-4 text-lg text-black/70">
+            <h2 className="mb-6 text-4xl font-normal">Our Story</h2>
+            <p className="text-stone mb-4 text-lg">
               Culinary Collective was born from a simple observation: the most
               successful F&B operations combine culinary excellence with
               operational efficiency, creative vision, and technological
               innovation.
             </p>
-            <p className="mb-4 text-lg text-black/70">
+            <p className="text-stone mb-4 text-lg">
               We assembled a team that represents each of these disciplines—a
               professional chef, a designer, a developer, and an operations
               specialist—to provide comprehensive consulting that addresses
               every aspect of your business.
             </p>
-            <p className="text-lg text-black/70">
+            <p className="text-stone text-lg">
               Today, we partner with restaurants, hotels, catering companies,
               and food startups to elevate their operations and create
               unforgettable dining experiences.
